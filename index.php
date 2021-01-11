@@ -50,34 +50,36 @@
 					</div>
 					<div class="text_box_outer_div">
 						<div class="text_box_inner_div">
-							<div class="text_content_div">
-								<div class="flex_div">
-									<div class="search_icon_div">
-										<div class="search_inner">
-											<span class="search_icon_span">
-												<i class="fa fa-search"></i>
-											</span>
+							<form action="search_result.php" method="post">							
+								<div class="text_content_div">
+									<div class="flex_div">
+										<div class="search_icon_div">
+											<div class="search_inner">
+												<span class="search_icon_span">
+													<i class="fa fa-search"></i>
+												</span>
+											</div>
 										</div>
-									</div>
-									<div class="text_box_div">
-										<div class="text_box_support_div"></div>
-										<input type="text" name="search_box" class="search_box_design">
-									</div>
-									<div class="mike_icon_div">
-										<div class="mike_icon_outer">
-											<span>
-												<img src="images/374536.svg" class="microphone_design">
-											</span>
+										<div class="text_box_div">
+											<div class="text_box_support_div"></div>
+											<input type="text" name="search_keyword" class="search_box_design">
+										</div>
+										<div class="mike_icon_div">
+											<div class="mike_icon_outer">
+												<span>
+													<img src="images/374536.svg" class="microphone_design">
+												</span>
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-							<div class="sub_button_div">
-								<center>
-									<button class="google_search">Google Search</button>
-									<button class="google_search">I'm Feeling Lucky</button>
-								</center>
-							</div>
+								<div class="sub_button_div">
+									<center>
+										<button type="submit" name="google_search" class="google_search">Google Search</button>
+										<button class="google_search">I'm Feeling Lucky</button>
+									</center>
+								</div>
+							</form>	
 						</div>		
 					</div>
 					<div class="google_offered_div">
